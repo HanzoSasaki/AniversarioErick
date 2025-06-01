@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convite de Aniversário - Erick Barbosa</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <div class="nav-container">
+        <nav>
+            <a href="#hero">Início</a>
+            <a href="#about">Sobre</a>
+            <a href="#form">Confirmar Presença</a>
+        </nav>
+    </div>
+    
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-content">
+            <h1>Convite de Aniversário</h1>
+            <h2>ERICK BARBOSA</h2>
+            
+            <div class="hero-info">
+                <p><i class="fas fa-map-marker-alt"></i> Box 94 | Gastrobar</p>
+                <p><i class="fab fa-instagram"></i> <a href="https://www.instagram.com/box94gastrobar/" target="_blank" style="color: var(--accent);">@box94gastrobar</a></p>
+                <p style="color: white;">
+                <i class="fas fa-map-marked-alt"></i> 
+                <a href="https://maps.app.goo.gl/sWTZLoJuGgSgD5Zm9" target="_blank" class="link-sem-estilo">
+                    Kartódromo Arena Usual - Laranjal Paulista - SP
+                </a>
+                </p>
+            </div>
+            
+            <div class="date-box">
+                <i class="fas fa-calendar-alt"></i> 14/06 - Sábado - 19:30
+            </div>
+        </div>
+        
+        <div class="scroll-down">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+    
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="about-content">
+            <div class="about-text">
+                <h2>Sobre o Evento</h2>
+                <p>Salve rapaziada esse ano decidi reunir meus amigos mais próximos para um encontro especial no Box Bar Gastronomia, às 19h do dia 14/06 (sábado).</p>
+                <p>O aniversário será por comanda, ou seja, cada convidado será responsável por suas despesas no local. Meu objetivo é simplesmente celebrar esse momento especial com todos que fazem parte da minha vida.</p>
+                <p>Sua presença é muito importante para mim! Caso não possa comparecer, compreenderei perfeitamente, mas preciso confirmar o número de participantes até o dia 06/06 para garantir a reserva adequada.</p>
+                <p>Tmj e Saúde 🍻 </p>
+            </div>
+            <div class="about-image">
+                <img src="img/2024-10-25.webp" alt="Restaurante Box 94">
+            </div>
+        </div>
+    </section>
+    
+    <!-- Form Section -->
+    <section id="form" class="form-section">
+        <div class="form-container">
+            <h2>Confirme sua Presença</h2>
+            <p>Por favor, confirme sua presença até 06/06 para que possamos fazer a reserva adequada.</p>
+            
+            <form id="rsvp-form">
+                <div class="form-group">
+                    <label for="name">Nome Completo:</label>
+                    <input type="text" id="name" name="name" required placeholder="Digite seu nome">
+                </div>
+                
+                <div class="form-group">
+                    <label for="attendance">Você vai comparecer?</label>
+                    <select id="attendance" name="attendance" required>
+                        <option value="">Selecione uma opção</option>
+                        <option value="present">Sim, estarei presente!</option>
+                        <option value="absent">Não vou poder ir</option>
+                    </select>
+                </div>
+                
+                <button type="submit" class="btn-submit">
+                    <span id="beer-icon">🍻</span> Enviar Confirmação
+                </button>
+            </form>
+        </div>
+    </section>
+    
+    <footer>
+        <p>Convite de Aniversário - Erick Barbosa | Desenvolvido com ❤️</p>
+        <p>© 2025 - Todos os direitos reservados Erick Barbosa</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
