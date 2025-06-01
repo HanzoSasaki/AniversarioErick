@@ -30,9 +30,9 @@ document.getElementById('rsvp-form').addEventListener('submit', function (e) {
     // Show confirmation message
     setTimeout(() => {
         if (attendance === 'present') {
-            alert(`Obrigado, ${name}! Sua presença foi confirmada e estamos ansiosos para celebrar com você!`);
+            alert(`Obrigado, ${name}! Sua presença foi confirmada e estou ansiosos para celebrar com você!`);
         } else {
-            alert(`Obrigado, ${name}, por responder. Sentiremos sua falta, mas entendemos perfeitamente!`);
+            alert(`Obrigado, ${name}, por responder. Sentirei sua falta, mas entendo perfeitamente!`);
         }
 
         // Reset form
